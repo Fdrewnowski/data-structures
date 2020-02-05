@@ -1,2 +1,2 @@
-# data-structures
-This repository consists code files, in which I implemented various of algorythms and data structures, using C++.
+# Sample projects
+This repository consists of different projects, which I made during my college classes. I wrote games, implemented algorythms and data structure using C++ and python.
