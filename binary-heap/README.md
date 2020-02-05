@@ -23,22 +23,22 @@ where n is the number of operations. There are at most 1000 groups. There are at
 Example
 
 Input
-10
-a 1 2
-a 1 3
-e 1
-a 2 4
-m 1 2
-e 2
-e 1
-i 1 2 5
-e 1
+10, 
+a 1 2, 
+a 1 3, 
+e 1, 
+a 2 4, 
+m 1 2, 
+e 2, 
+e 1, 
+i 1 2 5, 
+e 1, 
 e 1
 
 Output
 
-3
-na
-4
-5
+3, 
+na, 
+4, 
+5, 
 na
