@@ -23,7 +23,8 @@ where n is the number of operations. There are at most 1000 groups. There are at
 Example
 
 Input
-10, 
+10
+
 a 1 2, 
 a 1 3, 
 e 1, 
