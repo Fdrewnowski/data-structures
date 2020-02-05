@@ -3,6 +3,7 @@ Binary heap
 Here is the code with implementation of binary tree using C++. I made it to solve particular problem.
 
 PROBLEM
+
 Homework order
 Bob has many projects to do as a part of his studies so he has to prepare a schedule. Since there is a possibility that he may be unable to complete all the projects by their respective deadlines, he has to make sure that the most important ones are completed. The priority of projects may be subject to change over time.
 Projects may be divided in the groups. Bob may be interested in finding the project with a highest priority from a given group. The groups may be merged. Help Bob schedule his homework - implement the following operations:
@@ -23,35 +24,21 @@ Example
 
 Input
 10
-
 a 1 2
-
 a 1 3
-
 e 1
-
 a 2 4
-
 m 1 2
-
 e 2
-
 e 1
-
 i 1 2 5
-
 e 1
-
 e 1
 
 Output
 
 3
-
 na
-
 4
-
 5
-
 na
