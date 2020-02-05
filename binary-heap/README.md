@@ -1,6 +1,6 @@
 Binary heap
 
-Here is the code with implementation of binary tree using C++. I made it to solve particular problem.
+Here is the code with implementation of binary heap using C++. I made it to solve particular problem.
 
 PROBLEM
 
