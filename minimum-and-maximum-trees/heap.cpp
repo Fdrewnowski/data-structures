@@ -6,7 +6,7 @@
 #define ERROR 0
 using namespace std;
 
-Heap::Heap() {
+Heap::Heap() {				//here i create heap in which there are min and max trees
 	unsigned int liczba;
 	std::cin >> rozmiar;
 	int flaga=0;
@@ -39,7 +39,7 @@ Heap::~Heap() {
 	delete maxTablica;
 }
 
-void Heap::wypisz() {
+void Heap::wypisz() {				//show results
 	for (int j = 0; j < rozmiar; j++) {
 		if (tablica[j].data >= 1) {
 			cout << tablica[j].data;
@@ -52,7 +52,7 @@ void Heap::wypisz() {
 	cout << endl;
 }
 
-void Heap::sortujheap(modul** minTab, modul** maxTab, int tryb) {
+void Heap::sortujheap(modul** minTab, modul** maxTab, int tryb) {		//sort heap
 	if (tryb == 3 || tryb == 2) {
 		for (int i = rozmiarMaxHeap; i >= 0; i--) {
 			maxheap(i, maxTab);
