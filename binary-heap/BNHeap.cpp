@@ -14,7 +14,7 @@ void BNHeap::addValue(int value) {				//add value to a binary heap
 	unionBHeap(newModul->key, newModul);
 }
 
-void BNHeap::unionBHeap(int key, Modul* heap) {		//union two heaps
+void BNHeap::unionBHeap(int key, Modul* heap) {		//union inside heap
 	Modul* dummy;
 	dummy = heap;
 	if (dummy->key == 0) {
@@ -78,7 +78,7 @@ void BNHeap::heapifyDown(Modul* element) {
 	}
 }
 
-void BNHeap::mergeHeaps(Modul** second) {
+void BNHeap::mergeHeaps(Modul** second) {	//merge two heaps into one	
 	for (int i = 0; i < MAX; i++) {
 		if (second[i] != nullptr) {
 			unionBHeap(second[i]->key, second[i]);
@@ -87,7 +87,7 @@ void BNHeap::mergeHeaps(Modul** second) {
 	}
 }
 
-void BNHeap::extract() {		//pierwsza napotkana
+void BNHeap::extract() {		
 	int maxValue = NONE;
 	int maxGroup = NONE;
 	for (int i = 0; i < MAX; i++) {
@@ -112,7 +112,7 @@ void BNHeap::deleteRoot(int group) { // deletes root of one heap
 		delete rootArr[group];
 		rootArr[group] = nullptr;
 	}
-	else {									//dodaje od najmniejszych elementow
+	else {									
 		dummy = rootArr[group]->child;
 		rootArr[group]->child->parent = nullptr;
 		cout << rootArr[group]->data << endl;
