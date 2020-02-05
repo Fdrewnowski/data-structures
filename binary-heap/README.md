@@ -1,4 +1,5 @@
 Binary heap
+
 Here is the code with implementation of binary tree using C++. I made it to solve particular problem.
 
 PROBLEM
@@ -19,22 +20,38 @@ operation...,
 where n is the number of operations. There are at most 1000 groups. There are at most 200000 elements in a group
 
 Example
+
 Input
 10
+
 a 1 2
+
 a 1 3
+
 e 1
+
 a 2 4
+
 m 1 2
+
 e 2
+
 e 1
+
 i 1 2 5
+
 e 1
+
 e 1
 
 Output
+
 3
+
 na
+
 4
+
 5
+
 na
